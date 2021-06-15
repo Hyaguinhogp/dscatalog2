@@ -17,7 +17,7 @@ public class UserDTO {
 	private String firstName;
 	private String lastName;
 	
-	@Email(message = "Fabor inserir um email válido")
+	@Email(message = "Favor inserir um email válido")
 	private String email;
 	private String password;
 	
