@@ -15,7 +15,12 @@ public interface ProductRepository extends JpaRepository<Product, Long>{
 	@Query("SELECT DISTINCT obj "
 			+ "FROM Product obj "
 			+ "INNER JOIN obj.categories cats "
+<<<<<<< HEAD
 			+ "WHERE (:category IS NULL OR :category IN cats) "
 			+ "AND (LOWER(obj.name) LIKE LOWER(CONCAT('%', :name, '%') ) ) ")
 	public Page<Product> find(Category category, String name, Pageable pageable);
+=======
+			+ "WHERE (:category IS NULL OR :category IN cats)")
+	public Page<Product> find(Category category, Pageable pageable);
+>>>>>>> master
 }
