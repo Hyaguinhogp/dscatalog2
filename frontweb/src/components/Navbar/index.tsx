@@ -22,20 +22,24 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse" id="dscatalog-navbar">
-            <ul className="navbar-nav offset-md-2 main-menu">
-              <li>
-                <a href="link" className="active">
-                  HOME
-                </a>
-              </li>
-              <li>
-                <a href="link">CATÁLOGO</a>
-              </li>
-              <li>
-                <a href="link">ADMIN</a>
-              </li>
-            </ul>
+          <div className="collapse navbar-collapse ds-navbar" id="dscatalog-navbar">
+            <div className="space-1"></div>
+            <div className="space-2">
+              <ul className="navbar-nav main-menu">
+                <li>
+                  <a href="link" className="active">
+                    HOME
+                  </a>
+                </li>
+                <li>
+                  <a href="link">CATÁLOGO</a>
+                </li>
+                <li>
+                  <a href="link">ADMIN</a>
+                </li>
+              </ul>
+            </div>
+            <div className="space-3"></div>
           </div>
         </div>
       </nav>

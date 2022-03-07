@@ -7,10 +7,27 @@
     color: #fff;
 }
 
+.ds-navbar{
+    display: flex;
+    align-items: safe-center;
+}
+
+.space-1{
+    width: 35%;
+}
+
+.space-2{
+    width: 380px;
+}
+
+.space-3{
+    width: 45%;
+}
+
 .main-menu{
     display: flex;
     font-size: 18px;
-    width: 380px;
+    width: 100%;
     justify-content: space-between;
 }
 
