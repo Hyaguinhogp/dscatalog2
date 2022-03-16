@@ -1,0 +1,27 @@
+.product-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 246px;
+    height: 335px;
+    margin: 15px;
+}
+
+.product-image{
+    padding: 18px 45px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.product-image img{
+    align-self: center;
+    width: 158px;
+    width: 158px;
+}
+
+.product-description{
+    padding: 15px 20px 30px 20px;
+    font-size: 18px;
+}

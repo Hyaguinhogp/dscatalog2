@@ -27,12 +27,12 @@ const Navbar = () => {
             <div className="space-2">
               <ul className="navbar-nav main-menu">
                 <li>
-                  <a href="link" className="active">
+                  <a href="link">
                     HOME
                   </a>
                 </li>
                 <li>
-                  <a href="link">CATÁLOGO</a>
+                  <a href="link" className="active">CATÁLOGO</a>
                 </li>
                 <li>
                   <a href="link">ADMIN</a>

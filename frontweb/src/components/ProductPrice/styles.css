@@ -1,0 +1,15 @@
+.product-price{
+    display: flex;
+}
+
+.product-price span{
+    font-size: 18px;
+    color: #9E9E9E;
+    margin-top: 4px;
+}
+
+.product-price h3{
+    font-size: 32px;
+    color: #407BFF;
+    margin-left: 10px;
+}
